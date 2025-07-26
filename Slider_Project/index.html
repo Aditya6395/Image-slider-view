@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header style="text-align:center; color:white; margin-bottom: 20px;">
+    <h1>Image Slider View</h1>
+    <p>Every 5 seconds, each image moves automatically.</p>
+</header>
+
+
+<div class="slider-container">
+  <div class="slider-track" id="slider">
+    <img src="https://content.jdmagicbox.com/v2/comp/delhi/u4/011pxx11.xx11.180324125552.l8u4/catalogue/the-institute-of-financial-and-digital-accounts-ifda-kalkaji-delhi-digital-marketing-courses-eb93nuhckl.jpg" alt="Image 1" />
+    <img src="https://images.jdmagicbox.com/v2/comp/delhi/b8/011pxx11.xx11.130704094153.r1b8/catalogue/spd-college-shalimar-bagh-delhi-computer-training-institutes-i2j4ttjnsy.jpg" alt="Image 2" />
+    <img src="https://content.jdmagicbox.com/comp/satara/r4/9999p2162.2162.161129234516.m4r4/catalogue/disha-computer-institute-rajwada-satara-computer-training-institutes-lgzyzvddsr.jpg" alt="Image 3" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQysTSI04hKIrrjz4LxvrfJa_4-u9ZAh2QCeA&s" alt="Image 4" />
+  </div>
+  <button class="prev" onclick="prevSlide()">⟨</button>
+  <button class="next" onclick="nextSlide()">⟩</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
